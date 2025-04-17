@@ -43,4 +43,17 @@ async function getCommands() {
   <div v-else class="content">Error: No Commands Listed.</div>
 </template>
 
-<style scoped></style>
+<style scoped>
+#column-wrapper {
+  margin-top: 3%;
+  display: flex;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  text-align: center;
+  padding-left: 2px;
+  font-size: large;
+  font-weight: 700;
+}</style>
